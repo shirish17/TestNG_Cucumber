@@ -3,3 +3,5 @@ target
 test-output
 logs
 .dumpstream
+TestSuite.txt
+emailable-report.html
