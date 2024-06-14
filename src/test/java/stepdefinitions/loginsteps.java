@@ -10,15 +10,13 @@ import factory.DriverFactory;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pages.AccountPage;
 import pages.LandingPage;
 import pages.LoginPage;
 import utilis.ConfigReader;
 
 public class loginsteps extends DriverFactory{
 	public LandingPage LanPage;
-	public LoginPage LogPage;
-	public AccountPage APage;
+	public LoginPage LogPage;	
 	Logger logs;
 	
 	@When("User navigates to application Landing page")

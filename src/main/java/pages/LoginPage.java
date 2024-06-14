@@ -45,17 +45,7 @@ private ElementUtilis elementutilis;
 		elementutilis.typetextIntoElement(Passwordoption, password, Constants.EXPLICIT_WAIT_TIME);
 	}
 	
-	public AccountPage loginbutton() {
-		//loginbuttonoption.click();
-		elementutilis.clickonElement(loginbuttonoption, Constants.EXPLICIT_WAIT_TIME);
-		return new AccountPage(driver);
-	}
 	
-	public boolean errormessage() {
-		//return errormessagetext.isDisplayed();
-		return elementutilis.elementisdisplayed(errormessagetext, Constants.EXPLICIT_WAIT_TIME);
-		
-	}
 
 	
 
