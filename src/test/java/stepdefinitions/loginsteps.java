@@ -29,45 +29,6 @@ public class loginsteps extends DriverFactory{
 		LanPage = new LandingPage(driver);
 		LanPage.openApplication(url);
 		logs.debug("Open application");
-		
-		
-	}
-	@And("User enters valid password {string}")
-	public void User_enters_valid_password(String password) {
-		LogPage.password(password);
-		logs.debug("entered password");
-		
-	}
-	
-	@And("User clicks on Login button")
-	public void User_clicks_on_Login_button() {
-		APage = LogPage.loginbutton();
-		logs.debug("clicked on loginbutton");
-		
-	}
-	
-	@When("^User enters email address (.+)$")
-	public void User_enters_email_address(String email) {
-		//LogPage = new LoginPage(driver);
-		LogPage.emailAddress(email);
-		logs.debug("entered emailaddress");
-	}
-	
-	@And("^User enters password (.+)$")
-	public void User_enters_password(String password) {
-		LogPage.password(password);
-		logs.debug("entered password");
-	}
-
-	@Then("User should not login successfully")
-	public void User_should_not_login_successfully() {
-		
-		
-		Assert.assertTrue(LogPage.errormessage());
-		logs.info("login unsuccessfull");
-		 
-		
-	}
-	
+	}		
 }
 
