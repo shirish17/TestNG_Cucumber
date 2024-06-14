@@ -2,13 +2,9 @@ package stepdefinitions;
 
 import java.util.Properties;
 
-import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.testng.Assert;
 
 import factory.DriverFactory;
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.LandingPage;
 import pages.LoginPage;
@@ -29,4 +25,3 @@ public class loginsteps extends DriverFactory{
 		logs.debug("Open application");
 	}		
 }
-
