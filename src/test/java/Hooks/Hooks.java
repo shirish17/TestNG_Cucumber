@@ -10,6 +10,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
 
 import factory.DriverFactory;
 import io.cucumber.java.After;
@@ -38,6 +39,8 @@ public class Hooks extends DriverFactory {
 			driver = new FirefoxDriver();
 		}else if (browserName.equalsIgnoreCase("edge")) {
 			driver = new EdgeDriver();			
+		}else if (browserName.equalsIgnoreCase("safari")) {
+			driver = new SafariDriver();			
 		}else {
 			logs.error("Browser is not defined, as the provided browser value: "+browserName+"is incorrect.");
 		}
