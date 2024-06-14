@@ -1,0 +1,5 @@
+CucumberPdfReport
+target
+test-output
+logs
+.dumpstream
