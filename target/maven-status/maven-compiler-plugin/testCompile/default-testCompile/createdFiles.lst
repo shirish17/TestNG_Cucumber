@@ -1,7 +1,0 @@
-stepdefinitions\viewcheckoutordersteps.class
-stepdefinitions\searchsteps.class
-stepdefinitions\registersteps.class
-runner\runnerTest.class
-stepdefinitions\loginsteps.class
-Hooks\Hooks.class
-factory\DriverFactory.class
