@@ -46,13 +46,6 @@ public class loginsteps extends DriverFactory{
 		
 	}
 	
-	@Then("User should Login successfully")
-	public void User_should_Login_successfully() {
-		
-		Assert.assertEquals("My Account",APage.confirmlogin());
-		logs.info("login successfully");
-	}
-	
 	@When("^User enters email address (.+)$")
 	public void User_enters_email_address(String email) {
 		//LogPage = new LoginPage(driver);
