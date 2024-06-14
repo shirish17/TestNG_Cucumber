@@ -32,32 +32,6 @@ public class loginsteps extends DriverFactory{
 		
 		
 	}
-	@When("User clicks on My Account dropdown")
-	public void User_clicks_on_My_Account_dropdown() {
-		logs = LogManager.getLogger(loginsteps.class.getName());
-		
-		LanPage = new LandingPage(driver);
-		LanPage.MyAccount();
-		logs.debug("clicked on MyAccount option");
-		}
-	
-
-	@Then("User clicks on Login link")
-	public void User_clicks_on_Login_link() {
-		LogPage = LanPage.Login();   //When clicking on login dropdown takes you to LoginPage so go to login() method retrun the object 
-									//of LoginPage(return new LoginPage) and store it in LoginPage LogPage = LanPage.Login();
-	    logs.debug("clicked on login option");
-	}
-	
-	@And("User enters valid email address {string}")
-	public void User_enters_valid_email_address(String emailaddress){
-		
-		LogPage.emailAddress(emailaddress);
-		logs.debug("entered emailaddress");
-		
-	
-	}
-	
 	@And("User enters valid password {string}")
 	public void User_enters_valid_password(String password) {
 		LogPage.password(password);
