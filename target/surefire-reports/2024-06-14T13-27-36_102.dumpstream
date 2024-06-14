@@ -1,0 +1,5 @@
+# Created at 2024-06-14T13:27:36.385
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Shirish\eCommerceCode\Cucumber_TestNG_Hybrid\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
