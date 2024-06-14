@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 18.53 s <<< FAILURE! -- in TestSuite
-runner.runnerTest.runScenario["Login to application", "Optional[User Login]"](1) -- Time elapsed: 11.00 s <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.05 s <<< FAILURE! -- in TestSuite
+runner.runnerTest.runScenario["Login to application", "Optional[User Login]"](1) -- Time elapsed: 6.272 s <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "org.apache.logging.log4j.Logger.debug(String)" because "this.logs" is null
 	at stepdefinitions.loginsteps.open_Application_Home_Page(loginsteps.java:31)
 	at ✽.User navigates to application Landing page(file:///D:/Shirish/eCommerceCode/Cucumber_TestNG_Hybrid/src/test/resources/features/login.feature:7)
