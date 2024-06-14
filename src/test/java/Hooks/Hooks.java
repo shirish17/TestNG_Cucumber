@@ -25,7 +25,7 @@ public class Hooks extends DriverFactory{
 	@Before
 	public void setup(Scenario scenario){
 		
-		logs = LogManager.getLogger(Hooks.class.getName());
+		logs = LogManager.getLogger(Hooks.class.getName());		
 		
 		Properties value = ConfigReader.intializeProperties();
 		

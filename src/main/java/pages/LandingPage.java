@@ -48,6 +48,7 @@ public class LandingPage {
 		public void openApplication(String URL) {
 			driver.get(URL);
 		}
+		
 	}
 
 
